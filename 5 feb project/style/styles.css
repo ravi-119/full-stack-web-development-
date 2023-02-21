@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+nav{
+  background-color: black;
+  align-items: center;
+  justify-content:space-between;
+  height: 40px;
+  display: flex;
+  padding: 40px;
+}
+.line{
+  height: 60px;
+  background-color: white;
+  width:2px;
+  margin-left: -400px;
+  margin-left: 10px;
+  /*margin-right: 10px;*/
+}
+.logo img{
+  height: 40px;
+}
+.menu{
+  display: flex;
+  gap:50px;
+  align-items: center;
+  margin-right: 350px;
+
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.button1 button{
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
+  background-color: #ba0cc5;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500px;
+  /*padding: 10px;*/
+}
+.hero{
+  background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_03(HTML%2BCSS)/assets/bg.png");
+  background-size: cover;
+  height: 87.7vh;
+  /*width: px;*/
+  background-attachment: fixed;
+
+}
+.hero h1{
+  align-items: center;
+  max-width: 800px;
+  justify-content: center;
+  margin-left:430px;
+  padding-top: 130px;
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+}
+.hero p {
+  margin-left: 450px;
+  color: white;
+  font-size: 25px;
+}
+.hero button {
+  margin-left: 540px;
+  margin-top: 40px;
+  height: 50px;
+  width: 20%;
+  font-size: 20px;
+  font-weight: 500px;
+  border-radius: 15px;
+  background-color: #ba0cc5;
+  color: white;
+  border: none;
+}
+.hero button:hover{
+  background-color: white;
+  color: black;
+  /*width: 25%;*/
+  /*height: 70px;*/
+
+}
