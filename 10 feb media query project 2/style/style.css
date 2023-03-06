@@ -1,1 +1,199 @@
+/* Reset CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #03032f;
+}
+/* header */
+header{
+  display: flex;
+  flex-direction: column;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:20px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  color: #ffffff;
+  gap:40px;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 10%;
+}
+nav ul .home-option{
+  margin-left: 70%;
+}
+nav li{
+  cursor: pointer;
+}
+nav ul li:hover{
+  text-decoration: underline;
+  font-size: 25px;
+  color:yellow;
+  font-weight: 200;
+}
+nav img{
+  display:none;
+}
+/* intro-section */
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.intro-left{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  padding: 60px;
+}
+.intro-left .intro-line1{
+  display: flex;
+  color: #ffffff;
+  font-size: 40px;
+}
+.intro-left .intro-line1 h3{
+  font-weight: 350;
+}
+.intro-left .intro-line1 img{
+  width: 50px;
+}
+.intro-left .intro-line2 {
+  display: flex;
+  flex-direction: column;
+}
+.intro-left .intro-line2 h1{
+  color:#ffffff;
+  font-size: 30px;
+  font-weight: 350;
+}
+.intro-left .intro-line2 h2{
+  color:  #ffff00;
+  font-size: 30px;
+    font-weight: 350;
+}
+.intro-right img{
+  width: 550px;
+}
+/* Project part*/
+.project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project h1{
+  color:#ffffff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 200;
+}
+.Horizontal-divider{
+  background-color: blue;
+  height: 10px;
+  width: 200px;
+  border-radius: 20px;#
+  margin-bottom: 20px;
 
+}
+.project-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+}
+.project-list p {
+  font-size: 25px;
+  font-weight: 200;
+}
+.project-list p:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+.project{
+  text-align: center;
+  color: white;
+}
+.project img{
+  width: 300px;
+}
+/* Footer Part  */
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer-heading h1 {
+  color: white;
+  font-weight: 200;
+}
+.Social-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap:20px;
+}
+.Social-icon img{
+  width: 40px;
+  gap:20px;
+}
+.Social-icon img:hover{
+  width: 50px;
+}
+
+/* Media Query for mobile responsive */
+@media screen and  (max-width:860px) {
+  nav {
+  justify-content: flex-start;
+  }
+  nav img {
+    display: inline-block;
+    width: 20px;
+    cursor: pointer;
+  }
+  nav ul{
+    display: none;
+  }
+  .intro {
+    flex-direction: column;
+  }
+  .intro-line1 h3{
+    font-weight:350;
+  }
+  .intro-line2 h1{
+      font-weight:350;
+  }
+  .intro-line2 h2{
+      font-weight:350;
+  }
+  .intro-right img {
+    width: 350px;
+  }
+  .project-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .project-list img {
+    width: 200px;
+  }
+
+}
