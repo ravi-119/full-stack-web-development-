@@ -1,0 +1,21 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#box{
+  background-color: green;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  width: 20%
+}
+.ClickMe:hover{
+  text-decoration: underline;
+  font-size: 25px;
+}
