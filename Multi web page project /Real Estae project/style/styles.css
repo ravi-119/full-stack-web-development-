@@ -1,0 +1,423 @@
+*{
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Real%20Estate/Photos/mainBackground.png?raw=true");
+  background-size: cover;
+  height: 125vh;
+  width: 98.7vw;
+  position: relative;
+  background-position: center;
+}
+nav{
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+}
+nav img{
+  margin-left: 200px;
+  margin-top: 20px;
+  scale:1.5;
+}
+.nav-right-section ul{
+  color: white;
+  display: flex;
+  list-style: none;
+  margin-left: 400px;
+  margin-top: 40px;
+  gap:80%
+
+}
+.nav-right-section ul li{
+  cursor: pointer;
+}
+hr{
+  width:1200px;
+  margin-left: 110px;
+  margin-top:10px;
+}
+.Blogs{
+  color: white;
+}
+.Blogs h1{
+  margin-left: 30px;
+  display: flex;
+  width: 700px;
+  margin-top: 70px;
+  font-size: 80px;
+  margin-left: 200px;
+  font-weight: 400;
+}
+.Blogs p{
+  margin-left: 30px;
+  display: flex;
+  width: 400px;
+  margin-left: 200px;
+  font-weight: 400;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.Blogs button{
+  color: white;
+  cursor: pointer;
+  font-weight:500px;
+  border:none;
+  margin-left: 200px;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 125px;
+  font-size: 15px;
+  background-color:#4b15ed;
+}
+.my-logos{
+   background-color: #fff;
+   height: 120px;
+   width: 1200px;
+   margin-left: 80px;
+   margin-top: 40px;
+   display: flex;
+   align-items: center;
+   gap:150px;
+   justify-content: center;
+   border-radius: 30px;
+   position: relative;
+   bottom: 100px;
+}
+
+body{
+  background-color: #f6f8fa;
+}
+
+/* designing the wrapper section of the cards */
+.cards-wrapper-section h1 {
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  margin-left: 450px;
+  line-height: px;
+  width: 500px;
+  /*display: flex;*/
+}
+.cards-wrapper {
+  display: grid;
+  cursor: pointer;
+  margin-top: 80px;
+  grid-template-columns: 3fr 3fr 3fr ;
+  grid-template-rows: 3fr 3fr 3fr ;
+  margin-bottom:20px;
+  gap: 340px;
+  margin-left: 20px;
+  grid-row-gap:10px;
+  padding-left: 180px;
+}
+
+.cards-wrapper div:nth-child(2) {
+  margin-top: 50px;
+}
+.cards-wrapper div:nth-child(3) {
+  margin-top: 100px;
+}
+.cards-wrapper div:nth-child(4) {
+  margin-top: 160px;
+}
+.cards-wrapper div:nth-child(5) {
+  margin-top: 100px;
+}
+.cards-wrapper div:nth-child(6) {
+  margin-top: 40px;
+}
+.cards-wrapper div:nth-child(7) {
+  margin-top: 40px;
+}
+.cards-wrapper div:nth-child(8) {
+  margin-top: 100px;
+}
+.cards-wrapper div:nth-child(9) {
+  margin-top: 160px;
+}
+
+.card-box div:nth-child(1) {
+    /*margin-top:50px;*/
+}
+
+
+/* designing the card image */
+.card {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card img {
+  width: 366px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+/* designing the card box of card */
+.card-box {
+  display: flex;
+  position: absolute;
+  margin-bottom:-350px;
+  height: 130px;
+  width: 330px;
+  border-radius:40px;
+  background-color:white;
+  justify-content: center;
+  align-items: center;
+}
+.card-box div h3{
+  margin-left:-40px;
+}
+.card-box div p{
+  margin-left:-20px;
+}
+.card-box button {
+  color: white;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  width: 100px;
+  margin-left: 30px;
+  height:40px;
+  border-radius: 12px;
+  background-color:#4b15ed;
+  border:none;
+  cursor:pointer;
+}
+.card-box div h3 {
+  font-weight: 700;
+  padding-left: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-box div p {
+  font-weight: 800;
+  font-size: 20px;
+  color: #6663e8;
+  text-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+}
+
+/* CSS for features section */
+.first-features-section{
+  display: flex;
+  margin-top:10rem;
+}
+.features-images img:nth-child(1){
+  height:30rem;
+  width: 30rem;
+  position:left;
+  transform: scaleX(-1);
+  margin-left: 40px;
+  position: absolute;
+}
+.features-images img:nth-child(2){
+  height:360px;
+  width:340px;
+  position:absolute;
+  border-radius:20px;
+  margin-left:140px;
+}
+.written-content{
+  margin-left: 600px;
+}
+.written-content h1{
+  width: 700px;
+  font-size: 80px;
+}
+
+.written-content p{
+  margin-top: 20px;
+  width: 500px;
+  font-size:30px;
+}
+.written-content button{
+  border-radius: 20px;
+  height:40px;
+  width: 240px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color:#4b15ed;
+  border:none;
+  cursor:pointer;
+  color: white;
+  font-size: 20px;
+}
+.features-section2{
+  display: flex;
+  margin-top: 10rem;
+}
+.images-section2 img:nth-child(1){
+  margin-left: 40rem;
+  margin-bottom: -40rem;
+  border-radius: 20px;
+  height: 25rem;
+  width: 40rem;
+  position: absolute;
+}
+.images-section2 img:nth-child(2){
+  margin-left:805px;
+  height:350px;
+  width: 355px;
+  border-radius: 30px;
+  position: absolute;
+  margin-top:-60px;
+}
+.written-content-section2-features h1{
+  font-size: 50px;
+  width: 350px;
+  margin-left:10rem;
+  margin-top: 50px;
+}
+.written-content-section2-features p{
+  width: 300px;
+  margin-left:10rem;
+  margin-top: 30px;
+}
+.written-content-section2-features button{
+  margin-left:10rem;
+  margin-top: 30px;
+  height: 40px;
+  width: 140px;
+  border-radius: 30px;
+  background-color: #4b15ed;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor:pointer;
+}
+.subscription{
+  color: white;
+  height:30rem;
+  width: 60rem;
+  background-color: #4b15ed;
+  margin-top:5rem;
+  margin-left: 12rem;
+  border-radius:50px;
+}
+.subscription-section h1{
+  margin-left:9rem;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 500;
+  width: 700px;
+}
+.subscription-section p{
+  margin-left:200px;
+  margin-top: -10px;
+  font-size:20px;
+  font-weight:200;
+  padding:10px;
+  width: 500px;
+  width: 550px;
+}
+/* designing the form */
+.subscription form {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 40px;
+  align-items: center;
+  gap: 40px;
+}
+.subscription form div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #5654d1;
+  border-radius: 40px;
+  width: 568px;
+  height: 20px;
+  padding: 20px;
+}
+.subscription form div img {
+  scale:0.2;
+  margin-left:-20px;
+  cursor: pointer;
+}
+.subscription form div input {
+  background-color: transparent;
+  border: none;
+  background: #5654d1;
+}
+.subscription form div button {
+  background:white;
+  border: none;
+  gap:40px;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  width:10rem;
+  height:40px;
+  color: #6663e9;
+  cursor: pointer;
+}
+/* Designing footer part*/
+footer{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+}
+.footer-section-logo{
+  scale:1.0;
+}
+.footer-section-logo p{
+  margin-left:13rem;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.footer-section-logo img{
+  scale:1.5;
+  margin-left: 15rem;
+}
+.footer-section-social{
+  scale:0.5;
+  display:flex;
+  flex-direction:row;
+  margin-left: 200px;
+  margin-top: 20px;
+  gap:50px;
+  cursor: pointer;
+}
+.footer-section-social img:nth-child(1){
+  margin-left:1px;
+}
+.footer-section-social img:nth-child(2){
+  margin-left:1px;
+}
+.footer-section-social img:nth-child(3){
+  margin-left:1px;
+}
+/*css for links */
+.footer-links{
+  margin-left: 35rem;
+  display: flex;
+  gap:50px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.footer-links-content ul{
+  list-style: none;
+  text-decoration: none;
+  gap:120px;
+}
+.footer-links-content ul li a{
+  list-style: none;
+  text-decoration: none;
+  gap:120px;
+  color: black;
+}
