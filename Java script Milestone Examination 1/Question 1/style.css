@@ -1,0 +1,93 @@
+*{
+margin: 0px;
+padding: 0px;
+outline: 0px;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: #eaf3f8db;
+}
+
+.password-validator{
+    margin-left: 30%;
+    margin-top: 10rem;
+    height: 20rem;
+    width: 30rem;
+    border-radius:40px;
+    box-shadow: 5px 5px 10px  rgb(14, 14, 214);
+    background-color: rgba(14, 242, 86, 0.959);
+}
+
+.password-validator h2{
+    margin:8rem;
+    font-weight:500;
+    width: 500px;
+    padding-top: 30px;
+}
+
+/* create password */
+.create-password{
+    width: 230px;
+    margin-top:-90px;
+    margin-left:8rem;
+}
+
+.create-password label{
+    font-weight:500;
+    font-size: 20px;
+}
+
+.create-password input{
+
+    width: 250px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: -30px;
+    border-radius:20px;
+    border: transparent;
+    padding: 5px 10px;
+}
+
+/* confirm password */
+.confirm-password{
+    width: 230px;
+    margin-top: 20px;
+    margin-left:8rem;
+}
+
+.confirm-password label{
+    font-weight:500;
+    font-size: 20px;
+}
+
+.confirm-password input{
+
+    width: 250px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: -30px;
+    border-radius:20px;
+    border: transparent;
+    border-color: none;
+    padding: 5px 10px;
+}
+
+/* submit button */
+
+.password-validator button{
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius:20px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: transparent;
+
+}
