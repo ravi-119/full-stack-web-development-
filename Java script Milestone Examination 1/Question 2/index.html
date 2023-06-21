@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calulator </title>
 
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Oswald:wght@700&family=Poppins:ital,wght@0,500;0,700;1,500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- css link -->
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <section>
+    <div class="cal">
+      <p>result</p>
+      <div class="result"><span id="result">0</span></div>
+
+     <div class="first">
+       <label for="firstnum">Enter  first number</label>
+       <input type="number", id="first-num">
+      </div>
+
+     <div class="second">
+       <label for="second-num">Enter second number</label>
+       <input type="number" name="" id="second-num">
+     </div>
+
+     <div class="operator">
+       <label for="operator">Enter operator</label>
+       <input type="text" id="operator">
+     </div>
+     <button onclick="clac()"> calcualte</button>
+    </div>
+
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>
