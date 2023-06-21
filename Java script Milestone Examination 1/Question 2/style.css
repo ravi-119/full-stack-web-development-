@@ -1,0 +1,125 @@
+*{
+
+margin: 0px;
+padding: 0px;
+outline: 0px;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: hsl(124, 93%, 47%);
+}
+
+.cal{
+    height: 30rem;
+    width: 20rem;
+    box-shadow: 10px 10px 10px  rgb(241, 124, 14);
+    background-color: rgb(240, 240, 223);;
+    margin-left: 30rem;
+    border-radius: 30px;
+    margin-top: 4rem;
+    /* border: 2px solid black ;    */
+}
+
+.cal p{
+  margin-left: 8rem;
+  padding-top: 1rem;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.result{
+    margin-left:7rem;
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2rem;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px rgb(234, 190, 13);
+    background-color: rgb(17, 231, 35);
+}
+
+.result span{
+    margin-left: 10px;
+}
+
+
+/* designign for div first */
+
+.first{
+    margin-top: 2rem;
+}
+
+.first label{
+    margin-left: 5rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.first input{
+    margin-left: 5rem;
+    margin-top:1rem;
+    width: 10rem;
+    padding-left: 10px;
+
+}
+
+/* designign for second div */
+
+.second{
+    margin-top: 2rem;
+}
+
+.second label{
+    margin-left: 5rem;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.second input{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    padding-left: 10px;
+    width: 10rem;
+
+}
+
+/* designing for operator  */
+
+.operator{
+    margin-top: 2rem;
+}
+
+.operator label{
+    margin-left: 5rem;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.operator input{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    padding-left: 10px;
+}
+
+button{
+    height: 2rem;
+    cursor: pointer;
+    width: 7rem;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: 6rem;
+    box-shadow: 5px 5px 5px rgb(10, 212, 238);
+    background-color: rgba(14, 227, 31, 0.956);
+
+}
